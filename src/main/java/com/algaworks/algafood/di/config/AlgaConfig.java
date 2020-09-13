@@ -11,7 +11,7 @@ public class AlgaConfig {
 
 	@Bean
 	public NotificadorEmail notificadorEmail() {
-		NotificadorEmail notificador = new NotificadorEmail("smtp.algamail.com.br");
+		NotificadorEmail notificador = new NotificadorEmail();
 		notificador.setCaixaAlta(true);
 		
 		return notificador;
