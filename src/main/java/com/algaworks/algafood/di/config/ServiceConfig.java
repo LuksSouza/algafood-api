@@ -1,4 +1,4 @@
-package com.algaworks.algafood;
+package com.algaworks.algafood.di.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
