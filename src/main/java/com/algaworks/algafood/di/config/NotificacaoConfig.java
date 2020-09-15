@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.algaworks.algafood.di.notificacao.NotificadorEmail;
 
-//@Configuration
+/*@Configuration
 public class NotificacaoConfig {
 
 	@Bean
@@ -16,4 +16,4 @@ public class NotificacaoConfig {
 		return notificador;
 	}
 	
-}
+}*/
