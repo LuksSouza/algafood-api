@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class AtivacaoClienteService {
 
+	@Autowired
 	private Notificador notificador;
 
-	/*@Autowired
 	public AtivacaoClienteService(Notificador notificador) {
 		this.notificador = notificador;
-	}*/
+	}
 
 	public void ativar(Cliente cliente) {
 		cliente.ativar();
@@ -21,8 +21,4 @@ public class AtivacaoClienteService {
 		notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
 	}
 
-	@Autowired
-	public void setNotificador(Notificador notificador) {
-		this.notificador = notificador;
-	}
 }
